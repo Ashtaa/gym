@@ -1,0 +1,47 @@
+.schedule-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gym-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .gym-schedule th, .gym-schedule td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .gym-schedule th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .gym-schedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .gym-schedule tr:hover {
+    background-color: #ddd;
+  }
+  
+  .gym-schedule td ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .gym-schedule td ul li {
+    margin-bottom: 5px;
+  }
+  
