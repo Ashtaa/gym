@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer-container">
       <div className="footer-content">
         <h3>Gym Website</h3>
-        <p>Stay connected with us on social media for the latest updates and fitness tips.</p>
+        <p className='footer-p'>Stay connected with us on social media for the latest updates and fitness tips.</p>
         <div className="social-media">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
             <FaFacebook />
