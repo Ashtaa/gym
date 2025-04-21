@@ -80,6 +80,14 @@ font-weight: bolder;
     
 }
 @media(max-width:768px){
+    .left-home-container button{
+        display: none;
+        
+       }
+       .left-home-container p{
+        display: none;
+
+       }
     .left-right_home-container{
         display: flex;
         flex-direction: column;
@@ -94,5 +102,19 @@ font-weight: bolder;
     .ul-home li a{
         font-size: 30px;
         text-align: left;
+    }
+    .bottome-home{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ul-home li{
+        margin-left: 10px;
+    }
+    .ul-home{
+        padding-left: 0;
+        padding: 20px;
+        border-bottom: 2px solid gray;
     }
 }
